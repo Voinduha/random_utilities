@@ -22,5 +22,4 @@ public class TestData {
             picture = "avatar.png",
             state = "Haryana",
             city = "Karnal";
-
 }
