@@ -1,7 +1,7 @@
 package pages;
 
 import com.codeborne.selenide.SelenideElement;
-import pages.components.CalenderComponent;
+import pages.components.CalendarComponent;
 import pages.components.ResultsTableComponent;
 
 import static com.codeborne.selenide.Condition.text;
@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class RegistrationFormPage {
 
-    public CalenderComponent calenderComponent = new CalenderComponent();
+    public CalendarComponent calenderComponent = new CalendarComponent();
     public ResultsTableComponent resultsTableComponent = new ResultsTableComponent();
 
     SelenideElement
